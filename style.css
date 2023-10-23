@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+body{
+    background-color: #000;
+
+}
+main{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eee;
+    border: 3px solid #6f6f6f;
+    width: 245px;
+    border-radius: 10px;
+    padding: 20px;
+}
+p{
+    padding-bottom: 7px;
+    font-size: 18px;
+}
+.nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+
+}
+
+.teclas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    padding: 4px;
+    flex-wrap: wrap;
+}
+
+.tecla {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    justify-content: center;
+    background-color: #6f6f6f;
+    border: 2px solid #000;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.teclaoperacao {
+    background-color: rgb(179, 195, 179);
+    color: #000;
+}
+
+.display1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #6f6f6f;
+}
+.display{
+    width: 220px;
+    background-color: rgb(179, 195, 179);
+    text-align: right;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
